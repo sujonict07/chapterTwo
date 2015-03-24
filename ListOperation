@@ -1,0 +1,32 @@
+addNumber = [1,1,1]
+addNumber[1] = 2
+print addNumber
+#delete element from list
+names = ['sujon','emon','maa','father','pori']
+del names[4]
+print names
+#slice 
+name = list('parl')
+name[1:] = list('ython')
+print ''.join(list(name))
+addNumber[1:1]=[3,4,5]
+print addNumber
+addNumber.append(6)
+print addNumber
+print addNumber.count(1)
+addNumber.extend([10,12,13])
+print addNumber
+print names.index('sujon')
+print names.count('sujon')
+names.insert(4,'pori')
+print names
+print names.pop()
+print names
+print names.pop(0)
+print names
+names.sort()
+print names
+print sorted('python')
+
+
+
